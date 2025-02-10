@@ -1,5 +1,5 @@
 # Enterprise Ready Azure Infrastructure Setup
-The system is deactivated.
+The system now deactivated (I didn't want to spend forever blanking out all the sensitive info
 
 ![image](https://github.com/user-attachments/assets/834500a8-6bdb-4497-8b85-97de4b2cbebe)
 
