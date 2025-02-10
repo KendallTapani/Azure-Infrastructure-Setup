@@ -55,17 +55,31 @@ Deployed Azure Firewall in the Hub-VNET's AzureFirewallSubnet. This acts as a ce
 ### 5. Route Tables
 Created route tables (Spoke1-RT and Spoke2-RT) to force traffic from the Spoke-VNETs to go through the Azure Firewall in the Hub-VNET. This ensures that all traffic is inspected and filtered by the firewall before reaching the internet or other networks.
 
+![image](https://github.com/user-attachments/assets/e7dfcf7f-1060-44e4-b263-89753384440b)
+
+![image](https://github.com/user-attachments/assets/17ad32bd-500b-49c3-9d48-1fb89f3dd0b3)
+
+
+
 ### 6. Network Security Groups (NSGs)
 Created NSGs for each subnet in both Spoke-VNETs. These NSGs have rules to allow or deny traffic based on source IP, destination IP, and port. This provides an additional layer of security at the subnet level.
-
-### 7. Security
 
 NSG Rules
 Configured detailed rules in the NSGs to control traffic flow within and between subnets. For example, the Spoke1-Data-NSG only allows traffic from the Spoke1-AppSubnet and management traffic from the Hub-VNET.
 Azure Firewall Rules
 Configured network and application rules in the Azure Firewall to control traffic between the VNETs and the internet. This ensures that only authorized traffic is allowed, protecting your resources from unauthorized access.
 
-### 8. Management
+![image](https://github.com/user-attachments/assets/75057bda-d60a-4b16-9e30-c88eafa21617)
+
+![image](https://github.com/user-attachments/assets/4235b283-677f-46b7-80d7-8e44f82794e5)
+
+![image](https://github.com/user-attachments/assets/a4a40a52-576e-4921-905c-85ffe858f1ed)
+
+![image](https://github.com/user-attachments/assets/d5389bff-2ab3-4dd6-9060-4b7634bbf1a0)
+
+
+
+### 7. Management
 Deployed Azure Bastion in the Hub-VNET. This provides a secure and seamless way to connect to VMs in your VNETs without needing to expose them to the internet through public IPs.
 
 
