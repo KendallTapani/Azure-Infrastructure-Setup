@@ -6,6 +6,8 @@ Created a Hub-VNET with an address space of 10.0.0.0/16 to act as the central co
 - Spoke2-VNET (10.2.0.0/16) for development
 
 This isolates the two environments while allowing them to communicate through the hub.
+![image](https://github.com/user-attachments/assets/26eade83-27ae-401d-be4d-7f5e37d73916)
+
 
 ### 2. Subnet Configuration
 Within each VNET, created subnets to segment traffic and resources:
