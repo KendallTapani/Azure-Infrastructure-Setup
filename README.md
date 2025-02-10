@@ -19,6 +19,11 @@ In Hub-VNET:
 - BastionSubnet: For secure remote access to VMs (10.0.2.0/24)
 - Management: For hosting management resources (10.0.3.0/24)
 
+
+
+![image](https://github.com/user-attachments/assets/088789ba-413e-49c1-8470-20b96733fd30)
+
+
 In Spoke-VNETs:
 - AppSubnet: For application servers (10.1.0.0/24 in Spoke1-VNET and 10.2.0.0/24 in Spoke2-VNET)
 - DataSubnet: For data storage and databases (10.1.1.0/24 in Spoke1-VNET and 10.2.1.0/24 in Spoke2-VNET)
