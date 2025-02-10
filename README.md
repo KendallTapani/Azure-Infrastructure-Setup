@@ -4,7 +4,7 @@ The system now deactivated (I didn't want to spend forever blanking out all the 
 
 Costs 60 bucks to run over the weekend.
 
-<img src="https://github.com/user-attachments/assets/834500a8-6bdb-4497-8b85-97de4b2cbebe" width="400">
+<img src="https://github.com/user-attachments/assets/834500a8-6bdb-4497-8b85-97de4b2cbebe" width="500">
 
 ### 1. Networking: Hub-and-Spoke VNET Topology
 
