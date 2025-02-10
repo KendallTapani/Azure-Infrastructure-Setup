@@ -37,6 +37,9 @@ In Spoke-VNETs:
 ### 3. VNET Peering
 Established peering connections between Hub-VNET and each Spoke-VNET. This allows resources in different VNETs to communicate with each other while maintaining network isolation.
 
+![image](https://github.com/user-attachments/assets/7bbb3785-b43e-4f04-aeba-666e6c0d2da8)
+
+
 ### 4. Azure Firewall Deployment
 Deployed Azure Firewall in the Hub-VNET's AzureFirewallSubnet. This acts as a centralized security boundary, controlling traffic between the VNETs and the internet. Configured:
 - Basic network rules to allow traffic between the spoke networks and to the internet
