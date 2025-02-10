@@ -1,4 +1,4 @@
-# Enterprise Ready Azure Infrastructure Setup
+# Working Azure Infrastructure Setup
 
 The system now deactivated (I didn't want to spend forever blanking out all the subscription IDs, and public DNS info)
 
