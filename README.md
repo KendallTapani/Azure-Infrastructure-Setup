@@ -2,7 +2,7 @@
 
 The system now deactivated (I didn't want to spend forever blanking out all the subscription IDs, and public DNS info)
 
-Costs 60 bucks to run over the weekend.
+Costs 60 bucks to setup and run over the weekend.
 
 <img src="https://github.com/user-attachments/assets/834500a8-6bdb-4497-8b85-97de4b2cbebe" width="500">
 
