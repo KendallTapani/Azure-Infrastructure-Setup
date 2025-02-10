@@ -28,6 +28,12 @@ In Spoke-VNETs:
 - AppSubnet: For application servers (10.1.0.0/24 in Spoke1-VNET and 10.2.0.0/24 in Spoke2-VNET)
 - DataSubnet: For data storage and databases (10.1.1.0/24 in Spoke1-VNET and 10.2.1.0/24 in Spoke2-VNET)
 
+
+![image](https://github.com/user-attachments/assets/72cf0fb5-833c-4bbf-a216-5fe499d74060)
+
+![image](https://github.com/user-attachments/assets/9b5a0cf9-4987-4428-b85e-440eaa262361)
+
+
 ### 3. VNET Peering
 Established peering connections between Hub-VNET and each Spoke-VNET. This allows resources in different VNETs to communicate with each other while maintaining network isolation.
 
