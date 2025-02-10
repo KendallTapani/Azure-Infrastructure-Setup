@@ -1,5 +1,7 @@
 # Enterprise Ready Azure Infrastructure Setup
 
+![image](https://github.com/user-attachments/assets/834500a8-6bdb-4497-8b85-97de4b2cbebe)
+
 ### 1. Networking: Hub-and-Spoke VNET Topology
 Created a Hub-VNET with an address space of 10.0.0.0/16 to act as the central connectivity point. Added two Spoke-VNETs:
 - Spoke1-VNET (10.1.0.0/16) for production
@@ -82,6 +84,7 @@ Configured network and application rules in the Azure Firewall to control traffi
 ### 7. Management
 Deployed Azure Bastion in the Hub-VNET. This provides a secure and seamless way to connect to VMs in your VNETs without needing to expose them to the internet through public IPs.
 
+![image](https://github.com/user-attachments/assets/177222af-55d1-4e75-bfab-587553120685)
 
-![image](https://github.com/user-attachments/assets/834500a8-6bdb-4497-8b85-97de4b2cbebe)
+
 
