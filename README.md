@@ -45,6 +45,13 @@ Deployed Azure Firewall in the Hub-VNET's AzureFirewallSubnet. This acts as a ce
 - Basic network rules to allow traffic between the spoke networks and to the internet
 - Application rules to allow access to specific FQDNs like *.microsoft.com, *.windows.com, and *.windowsupdate.com
 
+![image](https://github.com/user-attachments/assets/614ce55e-42cf-4df8-979b-9047402dc56a)
+
+
+![image](https://github.com/user-attachments/assets/758baa78-d58f-4071-9ea5-a462e9dd1de6)
+
+
+
 ### 5. Route Tables
 Created route tables (Spoke1-RT and Spoke2-RT) to force traffic from the Spoke-VNETs to go through the Azure Firewall in the Hub-VNET. This ensures that all traffic is inspected and filtered by the firewall before reaching the internet or other networks.
 
