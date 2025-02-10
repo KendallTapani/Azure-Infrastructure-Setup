@@ -1,5 +1,5 @@
 # Azure Infrastructure Process
-### Enterprise Ready Azure Infrastructure Setup
+## Enterprise Ready Azure Infrastructure Setup
 
 ### Networking: Hub-and-Spoke VNET Topology
 Created a Hub-VNET with an address space of 10.0.0.0/16 to act as the central connectivity point. Added two Spoke-VNETs:
