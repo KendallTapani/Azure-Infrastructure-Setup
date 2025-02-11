@@ -4,6 +4,24 @@ The system now deactivated (I didn't want to spend forever blanking out all the 
 
 Costs 60 bucks to setup and run over the weekend.
 
+#### - Hub-and-Spoke Network Topology
+- Hub VNET (10.0.0.0/16) as central connection point
+- Spoke1-VNET (10.1.0.0/16) for production
+- Spoke2-VNET (10.2.0.0/16) for development
+
+#### - Hub VNET Components
+- Gateway Subnet (10.0.0.0/24)
+- Azure Firewall Subnet (10.0.1.0/24)
+- Bastion Subnet (10.0.2.0/24)
+- Management Subnet (10.0.3.0/24)
+
+#### - Security Infrastructure
+- Azure Firewall in the hub for centralized security
+- Network Security Groups (NSGs) on all subnets
+- Azure Bastion for secure VM access
+- Custom route tables forcing traffic through the firewall
+
+
 <img src="https://github.com/user-attachments/assets/834500a8-6bdb-4497-8b85-97de4b2cbebe" width="500">
 
 ### 1. Networking: Hub-and-Spoke VNET Topology
