@@ -7,7 +7,6 @@ Costs 60 bucks to setup and run over the weekend.
 <br/>
 ![image](https://github.com/user-attachments/assets/07dbfa2b-db24-4e05-9b96-223dc6f30fd5)
 <br/>
-<br/>
 
 #### - Hub-and-Spoke Network Topology
 - Hub VNET (10.0.0.0/16) as central connection point
