@@ -4,6 +4,10 @@ The system now deactivated (I didn't want to spend forever blanking out all the 
 
 Costs 60 bucks to setup and run over the weekend.
 
+Full Visual setup
+![image](https://github.com/user-attachments/assets/07dbfa2b-db24-4e05-9b96-223dc6f30fd5)
+
+
 #### - Hub-and-Spoke Network Topology
 - Hub VNET (10.0.0.0/16) as central connection point
 - Spoke1-VNET (10.1.0.0/16) for production
