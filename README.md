@@ -109,3 +109,11 @@ Configured network and application rules in the Azure Firewall to control traffi
 Deployed Azure Bastion in the Hub-VNET. This provides a secure and seamless way to connect to VMs in your VNETs without needing to expose them to the internet through public IPs.
 
 ![image](https://github.com/user-attachments/assets/177222af-55d1-4e75-bfab-587553120685)
+
+
+
+
+<br/>
+<br/>
+<br/>
+This system is ready to deploy a Windows Server + windows workstations, or whatever use-case presents itself.
